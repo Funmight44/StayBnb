@@ -286,7 +286,7 @@ nav {
     transform: translateX(-50%);
 }
 
-nav i {
+nav .fa-bars {
     display: none;
 } 
 
@@ -327,13 +327,13 @@ nav i {
        margin: 15px 0 30px; 
        display: inline-block;
     }
-    nav i {
+    nav .fa-bars {
         display: block;
         position: fixed;
         top: 4%;
         right: 7%;
         color: #fff;
-        font-size: 15px;
+        font-size: 28px;
     }
 
      /* nav svg{
@@ -348,7 +348,7 @@ nav i {
 
     .active::after{
         left: -40px;
-        transform: translate(0,50%);
+        transform: translate(0, 50%);
         bottom: 50%;
     }
 
@@ -428,11 +428,11 @@ nav i {
     color: #fff;
 }
 
- .navbar-white nav i{
+  nav.navbar-white .fa-bars{
     color: #000;
 }
 
-/* .navbar-white nav svg{
+/*nav.navbar-white svg{
     color: #000;
 } */
 
